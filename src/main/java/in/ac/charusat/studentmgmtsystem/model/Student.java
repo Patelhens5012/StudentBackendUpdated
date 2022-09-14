@@ -7,13 +7,9 @@ import javax.persistence.Id;
 public class Student {
 
     @Id
-
-
     private Integer id;
     private String name;
     private String address;
-
-
 
     public Student(Integer id, String name, String address) {
         this.id = id;
